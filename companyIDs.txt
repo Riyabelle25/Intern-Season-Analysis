@@ -1,0 +1,1875 @@
+1183
+1184
+1185
+1186
+1189
+1190
+1191
+1192
+1193
+1194
+1195
+1196
+1197
+1198
+1199
+1200
+1201
+1202
+1203
+1204
+1205
+1206
+1207
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+  <meta content="" name="description"/>
+  <title>
+   Internship Online
+  </title>
+  <link href="/static/images/favicon.ico" rel="shortcut icon"/>
+  <link href="/static/js/nucleus/manifest.json" rel="manifest"/>
+  <link href="/static/css/placement/normalize-min.css" rel="stylesheet"/>
+  <link href="/static/css/placement/base.css" rel="stylesheet"/>
+  <link href="/static/css/placement/style.css?v=1" rel="stylesheet"/>
+  <link href="/static/css/placement/input_styles.css" rel="stylesheet"/>
+  <link href="/static/css/placement/tabs.css" rel="stylesheet"/>
+  <link href="/static/css/placement/button.css" rel="stylesheet"/>
+  <link href="/static/jquery/smoothness/jquery-ui.min.css" rel="stylesheet"/>
+  <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+  <link href="/static/css/placement/styles.css" rel="stylesheet"/>
+  <script src="/static/js/modernizr.js">
+  </script>
+ </head>
+ <body>
+  <header>
+   <div id="header_parent">
+    <div id="header">
+     <div id="header_text">
+      Internship Online
+     </div>
+     <div id="header_app_links">
+      <nav>
+       <a href="/internship/">
+        Home
+       </a>
+       |
+       <a href="/placement/">
+        Placement Online
+       </a>
+       |
+       <a href="/logout/">
+        Logout
+       </a>
+      </nav>
+     </div>
+    </div>
+   </div>
+   <div id="header_shadow">
+   </div>
+  </header>
+  <div class="shadow">
+  </div>
+  <div id="main" role="main">
+   <div id="common-content">
+    <div id="profile_pic">
+     <img src="/placement/media/photo/"/>
+     <map name="profile_update">
+      <area coords="22,136,111,150" href="/profile/" shape="rect"/>
+     </map>
+    </div>
+    <div id="main_menu">
+     <nav id="cen_menu">
+      <li>
+       <img src="/static/images/placement/menu1.jpg"/>
+      </li>
+      <li>
+       <img src="/static/images/placement/menu1.jpg"/>
+      </li>
+      <li>
+       <img src="/static/images/placement/menu1.jpg"/>
+      </li>
+      <li>
+       <img src="/static/images/placement/menu1.jpg"/>
+      </li>
+      <li>
+       <img src="/static/images/placement/menu1.jpg"/>
+      </li>
+      <li class="last_icon">
+       <img src="/static/images/placement/menu1.jpg"/>
+      </li>
+     </nav>
+    </div>
+    <div id="feeds">
+    </div>
+   </div>
+   <div class="clear">
+   </div>
+   <div id="main_content">
+    <div id="content_left">
+     <nav id="menus">
+      <ul>
+       <a href="/internship/company/list/">
+        <li>
+         Company List
+        </li>
+       </a>
+       <a href="/internship/results/company/">
+        <li>
+         Results
+        </li>
+       </a>
+       <a href="/internship/notices/">
+        <li>
+         Forms
+        </li>
+       </a>
+       <a href="/internship/priority/">
+        <li>
+         Set Priority
+        </li>
+       </a>
+       <a href="/internship/FAQ/">
+        <li>
+         FAQ
+        </li>
+       </a>
+       <div class="subheading">
+        <strong>
+         Forum
+        </strong>
+       </div>
+       <a href="/internship/forum/T/">
+        <li>
+         Technical Forum
+        </li>
+       </a>
+       <a href="/internship/forum/P/">
+        <li>
+         Placement Forum
+        </li>
+       </a>
+       <div class="subheading">
+        <strong>
+         Feedback
+        </strong>
+       </div>
+       <a href="/internship/feedback/add/">
+        <li>
+         Give feedback
+        </li>
+       </a>
+       <a href="/internship/feedback/">
+        <li>
+         View feedback
+        </li>
+       </a>
+      </ul>
+     </nav>
+    </div>
+    <div id="content_middle">
+     <h3>
+      Companies
+     </h3>
+     <hr/>
+     <div class="tabbable" id="company_list_switch">
+      <ul class="nav nav-tabs">
+       <li class="active" id="apply_for_placement_li">
+        <a data-toggle="tab" href="#apply_for_placement" onclick="changeTab(0);">
+         Apply for Internship
+        </a>
+       </li>
+       <li id="all_companies_li">
+        <a data-toggle="tab" href="#all_companies" onclick="changeTab(1);">
+         All Companies
+        </a>
+       </li>
+      </ul>
+      <div class="tab-content">
+       <div class="tab-pane active" id="apply_for_placement">
+        There are no companies available for application.
+       </div>
+       <div class="tab-pane" id="all_companies">
+        <table class="sortable table table-striped table-bordered table-condensed" id="t3">
+         <thead>
+          <tr>
+           <th>
+            S. No.
+           </th>
+           <th>
+            Company
+           </th>
+           <th>
+            Last Date for Applying
+           </th>
+           <th>
+            Company Open to
+           </th>
+           <th>
+            Company Status
+           </th>
+           <th>
+            Resume
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td>
+            1
+           </td>
+           <td>
+            <a href="/internship/company/1183/info/">
+             Google SWE
+            </a>
+           </td>
+           <td>
+            08-08-2020 20:00
+           </td>
+           <td>
+            <a href="/internship/company/1183/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1183/resume/" id="resumelink1183" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            2
+           </td>
+           <td>
+            <a href="/internship/company/1184/info/">
+             Google Hardware
+            </a>
+           </td>
+           <td>
+            08-08-2020 20:00
+           </td>
+           <td>
+            <a href="/internship/company/1184/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1184/resume/" id="resumelink1184" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            3
+           </td>
+           <td>
+            <a href="/internship/company/1185/info/">
+             D. E. Shaw India
+            </a>
+           </td>
+           <td>
+            08-08-2020 20:00
+           </td>
+           <td>
+            <a href="/internship/company/1185/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1185/resume/" id="resumelink1185" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            4
+           </td>
+           <td>
+            <a href="/internship/company/1186/info/">
+             Goldman Sachs Services Private Ltd.
+            </a>
+           </td>
+           <td>
+            09-08-2020 22:00
+           </td>
+           <td>
+            <a href="/internship/company/1186/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1186/resume/" id="resumelink1186" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            5
+           </td>
+           <td>
+            <a href="/internship/company/1189/info/">
+             Uber
+            </a>
+           </td>
+           <td>
+            09-08-2020 12:00
+           </td>
+           <td>
+            <a href="/internship/company/1189/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1189/resume/" id="resumelink1189" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            6
+           </td>
+           <td>
+            <a href="/internship/company/1190/info/">
+             Sprinklr(Product Engineer)
+            </a>
+           </td>
+           <td>
+            10-08-2020
+           </td>
+           <td>
+            <a href="/internship/company/1190/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1190/resume/" id="resumelink1190" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            7
+           </td>
+           <td>
+            <a href="/internship/company/1191/info/">
+             Sprinklr(Product Designer)
+            </a>
+           </td>
+           <td>
+            10-08-2020
+           </td>
+           <td>
+            <a href="/internship/company/1191/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1191/resume/" id="resumelink1191" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            8
+           </td>
+           <td>
+            <a href="/internship/company/1192/info/">
+             Sprinklr(Visual Designer)
+            </a>
+           </td>
+           <td>
+            10-08-2020
+           </td>
+           <td>
+            <a href="/internship/company/1192/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1192/resume/" id="resumelink1192" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            9
+           </td>
+           <td>
+            <a href="/internship/company/1193/info/">
+             Hindustan Unilever Limited
+            </a>
+           </td>
+           <td>
+            18-08-2020 13:00
+           </td>
+           <td>
+            <a href="/internship/company/1193/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1193/resume/" id="resumelink1193" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            10
+           </td>
+           <td>
+            <a href="/internship/company/1194/info/">
+             Google (PIO)
+            </a>
+           </td>
+           <td>
+            -
+           </td>
+           <td>
+            <a href="/internship/company/1194/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1194/resume/" id="resumelink1194" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            11
+           </td>
+           <td>
+            <a href="/internship/company/1195/info/">
+             JP Morgan QR (PIO)
+            </a>
+           </td>
+           <td>
+            -
+           </td>
+           <td>
+            <a href="/internship/company/1195/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1195/resume/" id="resumelink1195" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            12
+           </td>
+           <td>
+            <a href="/internship/company/1196/info/">
+             ITC
+            </a>
+           </td>
+           <td>
+            13-08-2020 11:59
+           </td>
+           <td>
+            <a href="/internship/company/1196/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1196/resume/" id="resumelink1196" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            13
+           </td>
+           <td>
+            <a href="/internship/company/1197/info/">
+             AppDynamics Technologies India Private  Limited
+            </a>
+           </td>
+           <td>
+            12-08-2020 11:00
+           </td>
+           <td>
+            <a href="/internship/company/1197/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1197/resume/" id="resumelink1197" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            14
+           </td>
+           <td>
+            <a href="/internship/company/1198/info/">
+             JP Morgan (Quant)
+            </a>
+           </td>
+           <td>
+            11-08-2020 10:00
+           </td>
+           <td>
+            <a href="/internship/company/1198/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1198/resume/" id="resumelink1198" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            15
+           </td>
+           <td>
+            <a href="/internship/company/1199/info/">
+             Microsoft India Pvt. Ltd. (SE)
+            </a>
+           </td>
+           <td>
+            11-08-2020 20:00
+           </td>
+           <td>
+            <a href="/internship/company/1199/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1199/resume/" id="resumelink1199" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            16
+           </td>
+           <td>
+            <a href="/internship/company/1200/info/">
+             Microsoft India Pvt. Ltd. (ML)
+            </a>
+           </td>
+           <td>
+            11-08-2020 20:00
+           </td>
+           <td>
+            <a href="/internship/company/1200/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1200/resume/" id="resumelink1200" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            17
+           </td>
+           <td>
+            <a href="/internship/company/1201/info/">
+             NVIDIA GRAPHICS(HW)
+            </a>
+           </td>
+           <td>
+            12-08-2020 11:00
+           </td>
+           <td>
+            <a href="/internship/company/1201/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1201/resume/" id="resumelink1201" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            18
+           </td>
+           <td>
+            <a href="/internship/company/1202/info/">
+             APT Portfolio Pvt Ltd (SW)
+            </a>
+           </td>
+           <td>
+            12-08-2020 23:00
+           </td>
+           <td>
+            <a href="/internship/company/1202/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1202/resume/" id="resumelink1202" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            19
+           </td>
+           <td>
+            <a href="/internship/company/1203/info/">
+             Quadeye
+            </a>
+           </td>
+           <td>
+            15-08-2020 17:00
+           </td>
+           <td>
+            <a href="/internship/company/1203/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1203/resume/" id="resumelink1203" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            20
+           </td>
+           <td>
+            <a href="/internship/company/1204/info/">
+             Texas Instruments (Hardware - Digital + Analog)
+            </a>
+           </td>
+           <td>
+            14-08-2020 23:59
+           </td>
+           <td>
+            <a href="/internship/company/1204/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1204/resume/" id="resumelink1204" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            21
+           </td>
+           <td>
+            <a href="/internship/company/1205/info/">
+             Texas Instruments (Software)
+            </a>
+           </td>
+           <td>
+            16-08-2020 11:00
+           </td>
+           <td>
+            <a href="/internship/company/1205/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1205/resume/" id="resumelink1205" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            22
+           </td>
+           <td>
+            <a href="/internship/company/1206/info/">
+             Nutanix
+            </a>
+           </td>
+           <td>
+            17-08-2020 14:00
+           </td>
+           <td>
+            <a href="/internship/company/1206/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1206/resume/" id="resumelink1206" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+          <tr>
+           <td>
+            23
+           </td>
+           <td>
+            <a href="/internship/company/1207/info/">
+             Microsoft (PIO)
+            </a>
+           </td>
+           <td>
+            -
+           </td>
+           <td>
+            <a href="/internship/company/1207/opento/">
+             View
+            </a>
+           </td>
+           <td>
+            Closed
+           </td>
+           <td>
+            <a href="/internship/company/1207/resume/" id="resumelink1207" style="visibility:hidden;">
+             <button>
+              <div class="text">
+               Resume
+              </div>
+              <div class="image">
+               <img src="/static/images/arrow_down.png"/>
+              </div>
+             </button>
+            </a>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+     </div>
+     <div class="popup" id="application_status_change_alert" style="display:none;" title="Application status update">
+      <span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;">
+      </span>
+      <span id="application_status_message">
+      </span>
+     </div>
+     <script>
+      changeTab = function (num) {
+    if (num==0) {
+      document.getElementById('apply_for_placement_li').classList.add("active");
+      document.getElementById('all_companies_li').classList.remove("active");
+      document.getElementById('all_companies').classList.remove("active");
+      document.getElementById('apply_for_placement').classList.add("active");
+    }
+    if (num==1) {
+      document.getElementById('apply_for_placement_li').classList.remove("active");
+      document.getElementById('all_companies_li').classList.add("active");
+      document.getElementById('all_companies').classList.add("active");
+      document.getElementById('apply_for_placement').classList.remove("active");
+    }
+  }
+     </script>
+     <script src="/static/js/internship/application_switch.js" type="text/javascript">
+     </script>
+     <!--
+
+<div id="applications_table">
+<h3>List of Companies</h3>
+  <table class="sortable table table-striped table-bordered table-condensed" id="t2">
+    <thead>
+    <tr>
+      <th>S. No.</th>
+      <th>Company</th>
+      <th>Last Date for Applying</th>
+      <th>Open to</th>
+      <th>Company Status</th>
+      <th>Resume</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+      <td>1</td>
+      <td>
+        <a href="/internship/company/1183/info/">Google SWE</a>
+      </td>
+      <td>08-08-2020 20:00</td>
+      <td>
+        <a href="/internship/company/1183/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1183/resume/" id="resumelink1183"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>2</td>
+      <td>
+        <a href="/internship/company/1184/info/">Google Hardware</a>
+      </td>
+      <td>08-08-2020 20:00</td>
+      <td>
+        <a href="/internship/company/1184/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1184/resume/" id="resumelink1184"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>3</td>
+      <td>
+        <a href="/internship/company/1185/info/">D. E. Shaw India</a>
+      </td>
+      <td>08-08-2020 20:00</td>
+      <td>
+        <a href="/internship/company/1185/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1185/resume/" id="resumelink1185"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>4</td>
+      <td>
+        <a href="/internship/company/1186/info/">Goldman Sachs Services Private Ltd.</a>
+      </td>
+      <td>09-08-2020 22:00</td>
+      <td>
+        <a href="/internship/company/1186/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1186/resume/" id="resumelink1186"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>5</td>
+      <td>
+        <a href="/internship/company/1189/info/">Uber</a>
+      </td>
+      <td>09-08-2020 12:00</td>
+      <td>
+        <a href="/internship/company/1189/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1189/resume/" id="resumelink1189"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>6</td>
+      <td>
+        <a href="/internship/company/1190/info/">Sprinklr(Product Engineer)</a>
+      </td>
+      <td>10-08-2020</td>
+      <td>
+        <a href="/internship/company/1190/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1190/resume/" id="resumelink1190"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>7</td>
+      <td>
+        <a href="/internship/company/1191/info/">Sprinklr(Product Designer)</a>
+      </td>
+      <td>10-08-2020</td>
+      <td>
+        <a href="/internship/company/1191/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1191/resume/" id="resumelink1191"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>8</td>
+      <td>
+        <a href="/internship/company/1192/info/">Sprinklr(Visual Designer)</a>
+      </td>
+      <td>10-08-2020</td>
+      <td>
+        <a href="/internship/company/1192/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1192/resume/" id="resumelink1192"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>9</td>
+      <td>
+        <a href="/internship/company/1193/info/">Hindustan Unilever Limited</a>
+      </td>
+      <td>18-08-2020 13:00</td>
+      <td>
+        <a href="/internship/company/1193/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1193/resume/" id="resumelink1193"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>10</td>
+      <td>
+        <a href="/internship/company/1194/info/">Google (PIO)</a>
+      </td>
+      <td>-</td>
+      <td>
+        <a href="/internship/company/1194/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1194/resume/" id="resumelink1194"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>11</td>
+      <td>
+        <a href="/internship/company/1195/info/">JP Morgan QR (PIO)</a>
+      </td>
+      <td>-</td>
+      <td>
+        <a href="/internship/company/1195/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1195/resume/" id="resumelink1195"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>12</td>
+      <td>
+        <a href="/internship/company/1196/info/">ITC</a>
+      </td>
+      <td>13-08-2020 11:59</td>
+      <td>
+        <a href="/internship/company/1196/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1196/resume/" id="resumelink1196"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>13</td>
+      <td>
+        <a href="/internship/company/1197/info/">AppDynamics Technologies India Private  Limited</a>
+      </td>
+      <td>12-08-2020 11:00</td>
+      <td>
+        <a href="/internship/company/1197/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1197/resume/" id="resumelink1197"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>14</td>
+      <td>
+        <a href="/internship/company/1198/info/">JP Morgan (Quant)</a>
+      </td>
+      <td>11-08-2020 10:00</td>
+      <td>
+        <a href="/internship/company/1198/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1198/resume/" id="resumelink1198"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>15</td>
+      <td>
+        <a href="/internship/company/1199/info/">Microsoft India Pvt. Ltd. (SE)</a>
+      </td>
+      <td>11-08-2020 20:00</td>
+      <td>
+        <a href="/internship/company/1199/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1199/resume/" id="resumelink1199"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>16</td>
+      <td>
+        <a href="/internship/company/1200/info/">Microsoft India Pvt. Ltd. (ML)</a>
+      </td>
+      <td>11-08-2020 20:00</td>
+      <td>
+        <a href="/internship/company/1200/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1200/resume/" id="resumelink1200"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>17</td>
+      <td>
+        <a href="/internship/company/1201/info/">NVIDIA GRAPHICS(HW)</a>
+      </td>
+      <td>12-08-2020 11:00</td>
+      <td>
+        <a href="/internship/company/1201/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1201/resume/" id="resumelink1201"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>18</td>
+      <td>
+        <a href="/internship/company/1202/info/">APT Portfolio Pvt Ltd (SW)</a>
+      </td>
+      <td>12-08-2020 23:00</td>
+      <td>
+        <a href="/internship/company/1202/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1202/resume/" id="resumelink1202"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>19</td>
+      <td>
+        <a href="/internship/company/1203/info/">Quadeye</a>
+      </td>
+      <td>15-08-2020 17:00</td>
+      <td>
+        <a href="/internship/company/1203/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1203/resume/" id="resumelink1203"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>20</td>
+      <td>
+        <a href="/internship/company/1204/info/">Texas Instruments (Hardware - Digital + Analog)</a>
+      </td>
+      <td>14-08-2020 23:59</td>
+      <td>
+        <a href="/internship/company/1204/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1204/resume/" id="resumelink1204"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>21</td>
+      <td>
+        <a href="/internship/company/1205/info/">Texas Instruments (Software)</a>
+      </td>
+      <td>16-08-2020 11:00</td>
+      <td>
+        <a href="/internship/company/1205/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1205/resume/" id="resumelink1205"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>22</td>
+      <td>
+        <a href="/internship/company/1206/info/">Nutanix</a>
+      </td>
+      <td>17-08-2020 14:00</td>
+      <td>
+        <a href="/internship/company/1206/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1206/resume/" id="resumelink1206"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>23</td>
+      <td>
+        <a href="/internship/company/1207/info/">Microsoft (PIO)</a>
+      </td>
+      <td>-</td>
+      <td>
+        <a href="/internship/company/1207/opento/">View</a>
+      </td>
+      <td>
+        
+        
+        
+        
+        
+        
+        
+        Closed
+        
+        
+     
+      </td>
+      <td>
+       <a href="/internship/company/1207/resume/" id="resumelink1207"
+            style="visibility:hidden;" >
+          <button>
+            <div class="text">
+              Resume
+            </div>
+            <div class="image"><img src="/static/images/arrow_down.png" /></div>
+          </button>
+        </a>
+      </td>
+    </tr>
+    
+    </tbody>
+  </table>
+</div> 
+
+
+<!-- can use the js/internship/application_switch.js file -->
+     <script src="/static/js/internship/application_switch.js" type="text/javascript">
+     </script>
+    </div>
+    <!--=====================Right side gadgets =========================-->
+    <div id="content_right">
+    </div>
+    <div style="clear:both">
+    </div>
+   </div>
+  </div>
+  <footer>
+   <div id="footer">
+    ? 2020 Information Management Group
+   </div>
+  </footer>
+  <!--[if IE]>
+      <script type="text/javascript" src="/static/js/es5-shim.min.js"></script>
+    <![endif]-->
+  <script>
+   changeTab = function (num) {
+    if (num==0) {
+      document.getElementById('apply_for_placement_li').classList.add("active");
+      document.getElementById('all_companies_li').classList.remove("active");
+      document.getElementById('all_companies').classList.remove("active");
+      document.getElementById('apply_for_placement').classList.add("active");
+    }
+    if (num==1) {
+      document.getElementById('apply_for_placement_li').classList.remove("active");
+      document.getElementById('all_companies_li').classList.add("active");
+      document.getElementById('all_companies').classList.add("active");
+      document.getElementById('apply_for_placement').classList.remove("active");
+    }
+  }
+  </script>
+  <script src="/static/js/internship/application_switch.js" type="text/javascript">
+  </script>
+  <script src="/static/js/google-analytics.js" type="text/javascript">
+  </script>
+ </body>
+</html>
